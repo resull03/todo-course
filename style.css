@@ -1,0 +1,205 @@
+
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+  body {
+    font-family: "Roboto";
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 42vw;
+  }
+  .main {
+    width: 42vw;
+    border: 0.125vw solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 1.25vw;
+  }
+  .yellow {
+    width: 41.8vw;
+    height: 3.5vw;
+    background: #ffdc40;
+    border-radius: 1.25vw 1.25vw 0vw 0vw;
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.624vw;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.25vw;
+    line-height: 3.75vw;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  .sort-btn {
+    margin-left: 35.4vw;
+    margin-top: 1.87vw;
+    cursor: pointer;
+    width: 3.125vw;
+    height: 1.875vw;
+  }
+  .down {
+    width: 3.125vw;
+    height: 1.875vw;
+    opacity: 0.3;
+  }
+  .down:hover{
+    opacity: 2.3;
+  }
+  input {
+    width: 35.625vw;
+    height: 5vw;
+    border: none;
+    border-radius: 1.25vw;
+    padding-left: 1.25vw;
+    padding-right: 7vw;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 2vw;
+  }
+  .input-all {
+    position: relative;
+  }
+  .delete-img {
+    position: absolute;
+    top: 1.3vw;
+    right: 3.81vw;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 2.5vw;
+    height: 2.5vw;
+  }
+  .delete-img:hover {
+    background-color: #833ae0;
+  }
+  .wrapper-con {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 35.75vw;
+    border: 0.125vw solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 1.25vw;
+    margin-left: 3.425vw;
+    margin-top: 20px;
+
+  }
+  div.wrapper {
+    overflow-y: auto;
+    width: 35.625vw;
+    box-sizing: border-box;
+    padding: 0.625vw;
+    padding-top: 0vw;
+    padding-left: 0.5vw;
+    padding-bottom: 0;
+    display: none;
+    max-height: 229px;
+  }
+  .item {
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75vw;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    height: 5vw;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 2vw;
+  }
+  .delete {
+    cursor: pointer;
+    width: 2.5vw;
+    height: 1.875vw;
+    margin-right: 2.5vw;
+    width: 2.5vw;
+    height: 2.5vw;
+  }
+  .todo-item {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0.375vw;
+  }
+  .button {
+    margin: 2.251vw auto 2.374vw auto;
+    cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .btn {
+    cursor: pointer;
+    width: 20vw;
+    height: 5.25vw;
+    background: #833ae0;
+    border-radius: 8.875vw;
+    border: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75vw;
+    line-height: 2vw;
+    color: #ffffff;
+    margin-left: 0.625vw;
+  }
+  .btn:hover{
+    background-color: #5e3b8c;
+  }
+  .plus-btn {
+    width: 5.25vw;
+    height: 5.25vw;
+    position: absolute;
+    background: #9953f1;
+    border-radius: 8.875vw;
+  }
+
+  .plus-btn p {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75vw;
+    line-height: 2vw;
+    text-align: center;
+    margin-top: 1.624vw;
+  }
+
+  .deleted-button {
+    border: none;
+    background-color: white;
+    margin-right: 2.5vw;
+    margin-top: 0.5vw;
+    margin-left: 140px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .deleted-button img {
+    width: 2.5vw;
+    height: 2.5vw;
+  }
+  .deleted-button img:hover {
+    background-color: #833ae0;
+    border-radius: 50%;
+    color: white;
+  }
+
